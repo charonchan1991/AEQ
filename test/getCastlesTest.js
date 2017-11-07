@@ -53,7 +53,7 @@ describe('ASSIGNMENT 1: THE CASTLE COMPANY:', function () {
       it('should return ' + JSON.stringify(stretchOfLand.expect), function () {
         assert.deepEqual(result, stretchOfLand.expect);
       });
-
+      
       it('total number of castles to be built: ' + result.length);
 
     });
