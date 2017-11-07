@@ -1,0 +1,19 @@
+{
+  "name": "aeq_assignment",
+  "version": "1.0.0",
+  "description": "AEQ take-home assignment",
+  "private": true,
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charonchan1991/AEQ.git"
+  },
+  "author": "Ziyao Chen",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
