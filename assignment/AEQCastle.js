@@ -1,10 +1,9 @@
 
-
-// returns an array of peak/valley values
+// returns a collection of peak/valley values
 module.exports = function (seq) {
 
-  // if nothing in the array then simply returns 0
-  if (seq.length === 0) return 0;
+  // if nothing in the array
+  if (seq.length === 0) return [];
 
   var diff = 0;
   var castles = [];

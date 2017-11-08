@@ -1,7 +1,11 @@
 var assert = require("chai").assert;
-var getCastles = require('../assignment/getCastles');
 
-// feel free to add more examples to test the function
+// returns an array of peak/valley values,
+// length of the array would be the number of castles to be built
+var getCastles = require('../assignment/AEQCastle');
+
+// feel free to add more test cases to test the function
+// please fill out the expected results for auto-testing
 var stretchOfLands = [
   {
     data: [1, 1],
@@ -49,11 +53,9 @@ describe('ASSIGNMENT 1: THE CASTLE COMPANY:', function () {
     describe('Castles for the land ' + JSON.stringify(stretchOfLand.data), function () {
       
       var result = getCastles(stretchOfLand.data);
-
       it('should return ' + JSON.stringify(stretchOfLand.expect), function () {
         assert.deepEqual(result, stretchOfLand.expect);
       });
-      
       it('total number of castles to be built: ' + result.length);
 
     });
